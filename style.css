@@ -1,0 +1,287 @@
+
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu{
+    margin-left: 0;
+    list-style: none;
+    display: flex;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.menu-item{
+    padding: 20px;
+    color: #cecece
+}
+
+.seccion-1{
+    max-width: 924px;
+    margin: auto;
+}
+.card-seccion-1{
+    display: flex;
+    margin: auto;
+   margin-top: 40px;
+}
+.card-texto{
+
+    background-color: #e6e6e6;
+    padding: 60px 30px 30px 30px;
+}
+
+.card-span-1{
+    text-transform: uppercase;
+    font-size: 10px;
+
+}
+.card-titulo-1{
+    font-size: 50px;
+    margin: 0;
+}
+
+.card-parrafo-1{
+   text-align: justify;
+}
+
+.card-btn1{
+    padding: 10px;
+    margin-bottom: 60px; 
+    border-radius: 5px;
+    border-color: #cecece;
+
+}
+
+.card-img-1{
+    width: 450px;
+    aspect-ratio:16/9 ;
+    object-fit: cover;
+}
+.span-fuera{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-size: 18px;
+}
+
+.contenedor-seccion-2{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card-seccion-2{
+    flex-basis: calc(100% / 3);
+    padding: 20px;
+}
+.card-img-2{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.card-titulo-2{
+    font-size: 30px;
+    margin-top: 4px;
+}
+
+.card-btn-seccion-2{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btn-seccion-2{
+    padding: 10px;
+    width: 150px;
+    background-color: white;
+    border-color: #cecece;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+
+.seccion-contacto{
+    display: flex;
+    justify-content: center;
+    background-color: #eeeded;
+}
+
+.contenedor-contacto{
+    max-width: 800px;
+    display: flex;
+  
+}
+.contacto-formulario{
+    padding: 50px;
+}
+
+.titulo-formulario{
+    font-size: 30px;
+    padding: 15px 15px 15px 0 ;
+}
+
+.contenedor-input{
+    display: flex;
+}
+
+.input-email{
+    padding: 10px;
+    background-color: #eeeded;
+    border-color: #cecece;
+}
+
+.btn-formulario{
+    padding: 10px;
+    background-color: #eeeded;
+    border-color: #000000;
+}
+
+.contactos-icons{
+    padding: 50px;
+
+}
+.siguenos{
+    margin-left: 40px;
+}
+
+.contenedor-icons{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0;
+}
+
+.contacto-icons{
+    flex-basis: 100% / 3;
+    padding: 40px;
+}
+.icon1{
+    color: rgb(73, 73, 73);
+}
+
+.editors{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 40px;
+}
+
+.contenedor-seccion-3{
+    max-width: 1000px;
+    margin: auto;
+}
+.contenedor-card-3{
+    display: flex;
+    padding: 30px;
+}
+
+.card-img-3{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.card-texto-3{
+    padding: 30px;
+}
+
+.card-titulo-3{
+    font-size: 40px;
+}
+
+.card-span-link{
+    color: #8f8f8f;
+}
+
+.link{
+    color: #000000;
+}
+
+.contenedor-card-icons-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-icons{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.card-3-icons{
+    padding: 15px;
+    padding-bottom: 0;
+}
+
+.icon{
+   color: #cecece;
+}
+.card-btn-3{
+    display: flex;
+    justify-content: end;
+}
+
+.btn-seeall{
+    padding: 10px;
+    background-color: white;
+    border-color: #cecece;
+    border-radius: 5px;
+ 
+}
+
+.seccion-final{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+.contenedor-final{
+    max-width: 400px;
+    text-align: center;
+}
+.titulo-final{
+    font-size: 40px;
+    text-align: center;
+}
+
+.email-final{
+    padding: 10px;
+    background-color: #ffffff;
+    border-color: #cecece;
+    width: 280px;
+}
+.btn-formulario-final{
+    padding: 10px;
+    background-color: #ffffff;
+    border-color: #000000;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #eaf1f8;
+}
+
+.menu-footer{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+
+}
+
+.menu-footer-item{
+    padding: 25px;
+}
+
+.footer-item{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu-icon{
+    padding: 25px;
+}
