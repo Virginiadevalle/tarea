@@ -1,9 +1,6 @@
-
-
-
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .menu{
@@ -19,6 +16,10 @@
     color: #cecece
 }
 
+.menu-item.active{
+    color: #000;
+}
+
 .seccion-1{
     max-width: 924px;
     margin: auto;
@@ -26,12 +27,19 @@
 .card-seccion-1{
     display: flex;
     margin: auto;
-   margin-top: 40px;
+    margin-top: 40px;
 }
 .card-texto{
-
     background-color: #e6e6e6;
     padding: 60px 30px 30px 30px;
+    flex-basis: 50%;
+}
+
+.car-img-1-container{
+    flex-basis: 50%;
+    line-height: 0;
+}
+.card-img-1{
 }
 
 .card-span-1{
@@ -56,11 +64,7 @@
 
 }
 
-.card-img-1{
-    width: 450px;
-    aspect-ratio:16/9 ;
-    object-fit: cover;
-}
+
 .span-fuera{
     display: flex;
     justify-content: center;
@@ -114,9 +118,7 @@
     display: flex;
   
 }
-.contacto-formulario{
-    padding: 50px;
-}
+
 
 .titulo-formulario{
     font-size: 30px;
@@ -126,23 +128,39 @@
 .contenedor-input{
     display: flex;
 }
-
+.formulario{
+    display: flex;
+}
 .input-email{
     padding: 10px;
     background-color: #eeeded;
-    border-color: #cecece;
+    border: 1px solid #000;
+    border-right: none;
 }
 
 .btn-formulario{
     padding: 10px;
     background-color: #eeeded;
     border-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.contactos-icons{
-    padding: 50px;
-
+.contacto-formulario, .contactos-icons{
+    padding: 10px 50px;
+    margin: 60px 0;
 }
+
+.contacto-formulario{
+    border-right: 1px solid #c5c5c5;
+}
+
+.container-card-img-3{
+    min-width: 240px;
+    max-width: 300px;
+}
+
 .siguenos{
     margin-left: 40px;
 }
@@ -155,7 +173,8 @@
 }
 
 .contacto-icons{
-    flex-basis: 100% / 3;
+    text-align: center;
+    flex-basis: calc(100% / 3);
     padding: 40px;
 }
 .icon1{
@@ -179,9 +198,7 @@
 }
 
 .card-img-3{
-    aspect-ratio: 16/9;
-    object-fit: cover;
-    padding: 20px;
+ 
 }
 
 .card-texto-3{
@@ -259,9 +276,12 @@
 }
 
 
-.footer{
+.footer-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.footer{
     background-color: #eaf1f8;
 }
 
@@ -284,4 +304,30 @@
 
 .menu-icon{
     padding: 25px;
+}
+
+.card-button1{
+    margin-top: 40px;
+}
+
+.button{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    text-transform: uppercase;
+}
+
+.button.button-icon{
+    padding-right: 0;
+}
+
+.button.button-icon span{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.container{
+    max-width: 1224px;
+    margin: auto;
 }
