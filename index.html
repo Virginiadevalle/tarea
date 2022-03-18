@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
     <link
@@ -71,7 +74,9 @@
       <section class="seccion-2">
         <div class="contenedor-seccion-2">
           <article class="card-seccion-2">
-            <img class="card-img-2" src="./img/car1.png" alt="Cuadro rosa" />
+            <div class="img-2-container">
+              <img class="card-img-2" src="./img/car1.png" alt="Cuadro rosa" />
+            </div>
             <div class="card-span-2">
               <span class="card-span-2">Architecture .</span>
               <span class="card-span-2"> Berlin</span>
@@ -81,7 +86,9 @@
             </h3>
           </article>
           <article class="card-seccion-2">
-            <img class="card-img-2" src="./img/car2.png" alt="templos indues" />
+            <div class="img-2-container">
+              <img class="card-img-2" src="./img/car2.png" alt="templos indues" />
+            </div>
             <div class="card-span-2">
               <span class="card-span-2">Architecture .</span>
               <span class="card-span-2"> Berlin</span>
@@ -92,11 +99,14 @@
             </h3>
           </article>
           <article class="card-seccion-2">
-            <img
+            <div class="img-2-container">
+               <img
               class="card-img-2"
               src="./img/car3.png"
               alt="rejas y apartamento"
             />
+            </div>
+           
             <div class="card-span-2">
               <span class="card-span-2">Architecture .</span>
               <span class="card-span-2"> Berlin</span>
@@ -218,14 +228,19 @@
                     </a>
                   </li>
                 </ul>
-              </div>
-              <div class="card-btn-3">
-                <button class="btn-seeall" type="submit">See All ></button>
+                <div class="card-btn-3">
+                  <a href="#" class="button"
+                  >See All
+                  <span><i class="bi bi-chevron-right"></i></span>
+                </a>
+                </div>
               </div>
             </div>
           </article>
           <article class="contenedor-card-3">
-            <img class="card-img-3" src="./img/car2.png" alt="templos indues" />
+            <div class="container-card-img-3" >
+              <img class="card-img-3" src="./img/car2.png" alt="templos indues" />
+            </div>
             <div class="card-texto-3">
               <div class="div-card-span-3">
                 <span class="card-span-3">Architecture .</span>
@@ -263,14 +278,19 @@
                     </a>
                   </li>
                 </ul>
+                <div class="card-btn-3">
+                  <a href="#" class="button"
+                  >See All
+                  <span><i class="bi bi-chevron-right"></i></span>
+                </a>
               </div>
-              <div class="card-btn-3">
-                <button class="btn-seeall" type="submit">See All ></button>
               </div>
             </div>
           </article>
           <article class="contenedor-card-3">
-            <img class="card-img-3" src="./img/car3.png" alt="escaleras" />
+            <div class="container-card-img-3" >
+              <img class="card-img-3" src="./img/car3.png" alt="escaleras" />
+            </div>
             <div class="card-texto-3">
               <div class="div-card-span-3">
                 <span class="card-span-3">Architecture .</span>
@@ -308,15 +328,21 @@
                     </a>
                   </li>
                 </ul>
-              </div>
-              <div class="card-btn-3">
-                <button class="btn-seeall" type="submit">See All ></button>
+                <div class="card-btn-3">
+                  <a href="#" class="button"
+                  >See All
+                  <span><i class="bi bi-chevron-right"></i></span>
+                </a>
+                </div>
               </div>
             </div>
           </article>
         </div>
         <div class="card-btn-seccion-2">
-          <button class="btn-seccion-2" type="submit">See All ></button>
+          <a href="#" class="button"
+          >See All
+          <span><i class="bi bi-chevron-right"></i></span>
+        </a>
         </div>
       </section>
       <section class="seccion-final">
@@ -324,15 +350,17 @@
           <span class="span-final">Newsletter</span>
           <h3 class="titulo-final">Subscribe to our weekly Newsletter</h3>
           <div class="contenedor-input-final">
-            <form action="formulario">
+            <form class="formulario-final">
               <input
-                class="email-final"
+                class="input-email-final"
                 type="email"
                 name="email"
-                id="email2"
+                id="email"
                 placeholder="Email Address"
               />
-              <button class="btn-formulario-final" type="submit">></button>
+              <button class="btn-formulario-final" type="submit">
+                <i class="bi bi-chevron-right"></i>
+              </button>
             </form>
           </div>
         </div>

@@ -1,3 +1,6 @@
+html{
+    font-family: 'Nunito', sans-serif;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -39,8 +42,6 @@
     flex-basis: 50%;
     line-height: 0;
 }
-.card-img-1{
-}
 
 .card-span-1{
     text-transform: uppercase;
@@ -74,11 +75,12 @@
 
 .contenedor-seccion-2{
     display: flex;
+    justify-content: center;
     flex-wrap: nowrap;
 }
 
 .card-seccion-2{
-    flex-basis: calc(100% / 3);
+    flex-basis: 30%;
     padding: 20px;
 }
 .card-img-2{
@@ -197,10 +199,6 @@
     padding: 30px;
 }
 
-.card-img-3{
- 
-}
-
 .card-texto-3{
     padding: 30px;
 }
@@ -222,6 +220,7 @@
     justify-content: space-between;
 }
 
+
 .list-icons{
     display: flex;
     list-style: none;
@@ -230,7 +229,7 @@
 
 .card-3-icons{
     padding: 15px;
-    padding-bottom: 0;
+
 }
 
 .icon{
@@ -239,6 +238,7 @@
 .card-btn-3{
     display: flex;
     justify-content: end;
+    align-items: flex-end;
 }
 
 .btn-seeall{
@@ -263,16 +263,23 @@
     text-align: center;
 }
 
-.email-final{
+.formulario-final{
+    display: flex ;
+    justify-content: center;
+}
+.input-email-final{
     padding: 10px;
     background-color: #ffffff;
-    border-color: #cecece;
+    border: 1px solid #000;
     width: 280px;
 }
 .btn-formulario-final{
-    padding: 10px;
-    background-color: #ffffff;
-    border-color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    border-left: none;
 }
 
 
@@ -330,4 +337,80 @@
 .container{
     max-width: 1224px;
     margin: auto;
+}
+
+@media (max-width:475px) {
+    .header {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+       
+    }
+    .logo{
+        display:flex;
+        justify-content: center;
+
+    }
+    .menu{
+       
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+    .car-img-1-container{
+        display: none;
+    }
+    .card-seccion-1{
+        justify-content: center;
+    }
+    .contenedor-seccion-2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenedor-contacto{
+        flex-direction: column;
+    }
+
+    .container-card-img-3{
+        display: none;
+    } 
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-footer {
+        display: flex;
+        flex-direction: column;
+ 
+    }
+    .footer-item{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        display: flex;
+    }
+
+    .menu-icon{
+       display: flex;
+       justify-content: center;
+    }
+    .menu-footer-item{
+        text-align: center;
+    }
+    .button{
+        font-size: 14px;
+    }
+    .siguenos{
+        margin-left: 0 ;
+        display: flex;
+        justify-content: center;
+    }
+    .contenedor-icons{
+        display: flex;
+        flex-direction: column;
+     }
+     .contacto-icons{
+         padding: 20px;
+     }
 }
